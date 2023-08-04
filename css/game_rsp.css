@@ -1,0 +1,20 @@
+.colorRed{color: red;}
+.colorGreen{color: green;}
+.colorBlue{color: blue;}
+
+
+.stopBtn{background-color: #808080;color: #fff;font-size: 16px;font-weight: 400;border-radius: 5px;padding: 5px 8px;}
+.stopBtn:hover{background-color: #ddd;color: #000;}
+
+.scoreWrp{display: flex;justify-content: center;column-gap: 20px; font-weight: 700;font-size: 20px;padding: 10px 0;}
+
+.pcRsp{display: flex;justify-content: center;}
+.pcImage{filter: invert(1);width: 70%;padding-right: 5%;}
+
+.userRsp{display: flex;justify-content: center;column-gap: 20px;}
+.userRsp > button{font-size: 16px;border: 1px solid #000;font-weight: 400;padding: 8px 10px;border-radius: 10px;max-width: 100px;width: 100%;}
+.userRsp > button:hover{background-color: #000;color: #fff;}
+
+.modalTxt > p{padding-top: 20px;}
+.timeText{padding: 30px 20px;}
+

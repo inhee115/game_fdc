@@ -1,0 +1,14 @@
+
+.content{align-items: center;}
+
+.palette{width: 500px;height: 500px;display: flex;flex-wrap: wrap;position: relative;left: 0;}
+.paletteItem{padding: 2px;border-radius: 5px;background-clip: content-box;box-sizing: border-box;}
+.vibration{animation: vibrationEffect 0.1s infinite;}
+@keyframes vibrationEffect{
+    from{
+        left: 0;
+    }
+    to{
+        left: 3px;
+    }
+}

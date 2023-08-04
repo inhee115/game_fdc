@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a{text-decoration: none;color: inherit;}
+ol,ul,li{list-style: none;}
+button{border: none;background-color: transparent;outline: none;cursor: pointer;}
+
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+.modalWrp{display: none;}
+
+.wrap{position: relative;background-color: #000;}
+.header{display: flex;justify-content: space-between;align-items: flex-end; width: 100%;padding: 10px 0;color: #fff;font-size: 16px;}
+.container{display: flex;align-items: center;justify-content: center;flex-direction: column;height: 100vh;max-width: 600px;margin: 0 auto;}
+.content{background-color: #fff;border-radius: 10px;width: 100%;padding: 60px 10px;display: flex;flex-direction: column;justify-content: center;max-height: 600px;height: 100%;}
+
+.modalWrp{position: fixed;top: 0;left: 0;}
+.modalBack{position: fixed;width: 100vw;height: 100vh;background-color: rgba(0,0,0,0.3);z-index: 1;}
+.modalCnt{position: fixed;z-index: 10;background-color: #fff;top: calc(50% + 25px);left: 50%;transform: translate(-50%,-50%);padding: 60px 80px;display: flex;flex-direction: column;align-items: center;border-radius: 10px;text-align: center;}
+.modalCloseBtn{width: 100%;font-size: 14px;border: 1px solid #000;border-radius: 10px;padding: 8px 10px;font-weight: 600;}
+
+.show{display: block;}
